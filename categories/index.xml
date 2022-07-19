@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Securonix Documentation</title>
+    <link>https://documentation-securonix.github.io/documentation-securonix/categories/</link>
+    <description>Recent content in Categories on Securonix Documentation</description>
+    <image>
+      <url>https://www.securonix.com/wp-content/uploads/2021/07/securonix-blue.svg</url>
+      <link>https://www.securonix.com/wp-content/uploads/2021/07/securonix-blue.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://documentation-securonix.github.io/documentation-securonix/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
