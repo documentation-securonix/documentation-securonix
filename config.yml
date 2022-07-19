@@ -55,7 +55,7 @@ params:
         enabled: true
         title: "Securonix Documentation" # optional default will be site title
         subtitle: "Documentation Page for SNYPR"
-        imageUrl: "../../securonix.svg" # optional
+        imageUrl: "../securonix.svg" # optional
         imageTitle: "Securonix Logo" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
@@ -74,16 +74,3 @@ params:
               url: "https://www.facebook.com/Securonix/"
             - name: "Youtube"
               url: "https://www.youtube.com/channel/UCN3f7HTfuAlbbfy3RCQcd8w"
-        # socialIcons: # optional
-        # - name: "email"
-        #   url: "info@securonix.com"
-        # - name: "linkedin"
-        #   url: "https://in.linkedin.com/company/securonix"
-        # - name: "instagram"
-        #   url: "https://www.instagram.com/securonix/"
-        # - name: "twitter"
-        #   url: "https://twitter.com/Securonix"
-        # - name: "facebook"
-        #   url: "https://www.facebook.com/Securonix/"
-        # - name: "youtube"
-        #   url: "https://www.youtube.com/channel/UCN3f7HTfuAlbbfy3RCQcd8w"
