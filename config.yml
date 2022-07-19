@@ -1,0 +1,89 @@
+baseURL: "https://documentation-securonix.github.io/documentation-securonix/"
+languageCode: en-us
+title: Securonix Documentation
+theme: "PaperMod"
+paginate: 5
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+    
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Documentation for SNYPR v6.4
+  description: "Documentation for SNYPR v6.4"
+  keywords: [Documentation, SNYPR, Posts, Features]
+  author: "Punit Shah"
+  images: ["https://www.securonix.com/wp-content/uploads/2021/07/securonix-blue.svg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  hidefooter: false
+  assets:
+    favicon: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
+    favicon16x16: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
+    favicon32x32: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
+    apple_touch_icon: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
+    safari_pinned_tab: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
+
+  profileMode:
+        enabled: true
+        title: "Securonix Documentation" # optional default will be site title
+        subtitle: "Documentation Page for SNYPR"
+        imageUrl: "/securonix.svg" # optional
+        imageTitle: "Securonix Logo" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Posts
+              url: "/documentation-securonix/posts"
+            - name: Website
+              url: "https://www.securonix.com/"
+            - name: "Linkedin"
+              url: "https://in.linkedin.com/company/securonix"
+            - name: "Instagram"
+              url: "https://www.instagram.com/securonix/"
+            - name: "Twitter"
+              url: "https://twitter.com/Securonix"
+            - name: "Facebook"
+              url: "https://www.facebook.com/Securonix/"
+            - name: "Youtube"
+              url: "https://www.youtube.com/channel/UCN3f7HTfuAlbbfy3RCQcd8w"
+        # socialIcons: # optional
+        # - name: "email"
+        #   url: "info@securonix.com"
+        # - name: "linkedin"
+        #   url: "https://in.linkedin.com/company/securonix"
+        # - name: "instagram"
+        #   url: "https://www.instagram.com/securonix/"
+        # - name: "twitter"
+        #   url: "https://twitter.com/Securonix"
+        # - name: "facebook"
+        #   url: "https://www.facebook.com/Securonix/"
+        # - name: "youtube"
+        #   url: "https://www.youtube.com/channel/UCN3f7HTfuAlbbfy3RCQcd8w"
