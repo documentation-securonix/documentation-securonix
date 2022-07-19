@@ -249,62 +249,62 @@
 <h6 id="4111-ownership-tracking">4.1.1.1 Ownership Tracking<a hidden class="anchor" aria-hidden="true" href="#4111-ownership-tracking">#</a></h6>
 <p>Ownership changes to ClientCreated (from SecuronixCreated) when Major Changes are made. This employs granular tracking which was not available previously. Line Filters and Action Filters can be updated but Derived Fields and Categorization Enrichments are not tracked in this ownership change. Categorization Enrichments are restricted (covered under Restricted Changes below). However, this ownership tracking currently only applies to Securonix owned Parsers (i.e. starting with SCNX_ or having CRPid as less than 1 Million).</p>
 <!-- raw HTML omitted -->
-<p><img loading="lazy" src="../../image13.png" alt="Ownership Tracking"  title="Ownership Tracking"  />
+<p><img loading="lazy" src="/image13.png" alt="Ownership Tracking"  title="Ownership Tracking"  />
 </p>
 <h6 id="4112-allowed-changes">4.1.1.2 Allowed Changes<a hidden class="anchor" aria-hidden="true" href="#4112-allowed-changes">#</a></h6>
 <p>Changes to Geolocation, TPI, Lookups, Activelists and IP Attribution are all allowed to Clients and do not require the creation of a CUST_ parser.</p>
-<p><img loading="lazy" src="../../image3.png" alt="Allowed Changes Page 1"  title="Allowed Changes Page 1"  />
+<p><img loading="lazy" src="/image3.png" alt="Allowed Changes Page 1"  title="Allowed Changes Page 1"  />
 </p>
 <p>Fill in the relevant details then click Save &amp; Next on the top right of the screen:</p>
-<p><img loading="lazy" src="../../image2.png" alt="Allowed Changes Page 2"  title="Allowed Changes Page 2"  />
+<p><img loading="lazy" src="/image2.png" alt="Allowed Changes Page 2"  title="Allowed Changes Page 2"  />
 </p>
 <p>On the next screen (Parser Management), Click on Conditional Actions and then Add Condition:</p>
-<p><img loading="lazy" src="../../image10.png" alt="Allowed Changes Page 3"  title="Allowed Changes Page 3"  />
+<p><img loading="lazy" src="/image10.png" alt="Allowed Changes Page 3"  title="Allowed Changes Page 3"  />
 </p>
 <p>Fill in the details as required and in the “Select Actions for Above Conditions” section, choose “Geolocate Attributes” or something else except the first 2 (Set Event Severity, Set Event Category) since those are restricted changes. Fill in the data as required and click on Save at the bottom of the screen. Finally, click on Save &amp; Next at the top right of the screen:</p>
-<p><img loading="lazy" src="../../image11.png" alt="Allowed Changes Page 4"  title="Allowed Changes Page 4"  />
+<p><img loading="lazy" src="/image11.png" alt="Allowed Changes Page 4"  title="Allowed Changes Page 4"  />
 </p>
 <p>You will see that a pop up screen will appear that says you can either Save the changes to overwrite the existing parser (since this is an Allowed Change) or choose Save As to make a new copy of the Parser:</p>
-<p><img loading="lazy" src="../../image9.png#center" alt="Allowed Changes Page 5"  title="Allowed Changes Page 5"  />
+<p><img loading="lazy" src="/image9.png#center" alt="Allowed Changes Page 5"  title="Allowed Changes Page 5"  />
 </p>
 <h6 id="4113-restricted-changes">4.1.1.3 Restricted Changes<a hidden class="anchor" aria-hidden="true" href="#4113-restricted-changes">#</a></h6>
 <p>Categorization Enrichments are not allowed. For example, Set Event Severity and Set Event Category are not allowed to be changed by Clients. If a Client wants to modify these, they will be forced to create a CUST_ parser.</p>
-<p><img loading="lazy" src="../../image3.png" alt="Restricted Changes Page 1"  title="Restricted Changes Page 1"  />
+<p><img loading="lazy" src="/image3.png" alt="Restricted Changes Page 1"  title="Restricted Changes Page 1"  />
 </p>
 <p>Fill in the relevant details then click Save &amp; Next on the top right of the screen:</p>
-<p><img loading="lazy" src="../../image2.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
+<p><img loading="lazy" src="/image2.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
 </p>
 <p>On the next screen (Parser Management), Click on Conditional Actions and then Add Condition:</p>
-<p><img loading="lazy" src="../../image10.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
+<p><img loading="lazy" src="/image10.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
 </p>
 <p>Fill in the details as required and in the “Select Actions for Above Conditions” section, choose either “Set Event Severity” or “Set Event Category” since these 2 are restricted changes. Fill in the data as required and click on Save at the bottom of the screen. Finally, click on Save &amp; Next at the top right of the screen:</p>
-<p><img loading="lazy" src="../../image14.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
+<p><img loading="lazy" src="/image14.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
 </p>
 <p>You will see that a pop up screen will appear that says you need to Save the settings as a New Parser:</p>
-<p><img loading="lazy" src="../../image1.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
+<p><img loading="lazy" src="/image1.png" alt="Restricted Changes Page 2"  title="Restricted Changes Page 2"  />
 </p>
 <p>This is because this is a restricted change and will create a CUST_ parser instead of affecting the SCNX_ parser.</p>
 <h4 id="42-from-content-admin-perspective">4.2 From Content Admin Perspective<a hidden class="anchor" aria-hidden="true" href="#42-from-content-admin-perspective">#</a></h4>
 <h5 id="421-parsers">4.2.1 Parsers<a hidden class="anchor" aria-hidden="true" href="#421-parsers">#</a></h5>
 <h6 id="4211-new-improved-deploy-action">4.2.1.1 New Improved Deploy Action<a hidden class="anchor" aria-hidden="true" href="#4211-new-improved-deploy-action">#</a></h6>
 <p>Till now the Deploy Parser action to update Parser used to overwrite any Line Filter Customizations that the client had made. The new improved deploy action allows clients to keep their own Line Filters customizations on Parsers and still get them updated to the newest versions when they are available. This is done by showing a popup when clicking the Deploy button which gives the client the choice to overwrite the Line Filters or not.</p>
-<p><img loading="lazy" src="../../image6.png" alt="NIDA Page 1"  title="NIDA Page 1"  />
+<p><img loading="lazy" src="/image6.png" alt="NIDA Page 1"  title="NIDA Page 1"  />
 </p>
-<p><img loading="lazy" src="../../image5.png" alt="NIDA Page 2"  title="NIDA Page 2"  />
+<p><img loading="lazy" src="/image5.png" alt="NIDA Page 2"  title="NIDA Page 2"  />
 </p>
 <p>Here, ticking the first option will overwrite the line filters that the customer might have modified (essentially replacing the parser with the latest OOTB parser) while unticking it will ensure that the parser is updated to the latest version while keeping the line filter customizations that the customer did as-is. The second option is basically a confirmation checkbox and the deploy button becomes clickable only when this is ticked.</p>
 <h6 id="4212-manage-content">4.2.1.2 Manage Content<a hidden class="anchor" aria-hidden="true" href="#4212-manage-content">#</a></h6>
 <p>The Manage Content screen allows a Parser to be force deployed and resetted back to the Securonix OOTB Parser by reading the latest data from the Data folder and overwriting the customized data. This means any customization that the Client has done (and which may or may not have resulted in any corruption be it intentional or otherwise) will be wiped out and replaced with the OOTB Parser.</p>
-<p><img loading="lazy" src="../../image7.png" alt="Parsers Manage Content"  title="Parsers Manage Content"  />
+<p><img loading="lazy" src="/image7.png" alt="Parsers Manage Content"  title="Parsers Manage Content"  />
 </p>
 <h6 id="4213-daily-housekeeping-job">4.2.1.3 Daily Housekeeping Job<a hidden class="anchor" aria-hidden="true" href="#4213-daily-housekeeping-job">#</a></h6>
 <p>A dedicated job that runs every 24 hours. This job will check if there are any new parsers in the CRP folders and automatically deploys them in the CRP table. This job also runs when a new datasource is added for the first time.</p>
-<p><img loading="lazy" src="../../image12.png" alt="Housekeeping"  title="Housekeeping"  />
+<p><img loading="lazy" src="/image12.png" alt="Housekeeping"  title="Housekeeping"  />
 </p>
 <h5 id="422-policies">4.2.2 Policies<a hidden class="anchor" aria-hidden="true" href="#422-policies">#</a></h5>
 <h6 id="4221-manage-content">4.2.2.1 Manage Content<a hidden class="anchor" aria-hidden="true" href="#4221-manage-content">#</a></h6>
 <p>The Manage Content screen allows a Policy to be force deployed and resetted back to the Securonix OOTB Policy by reading the latest data from the Data folder and overwriting the customized data. This means any customization that the Client has done (and which may or may not have resulted in any corruption be it intentional or otherwise) will be wiped out and replaced with the OOTB Policy.</p>
-<p><img loading="lazy" src="../../image8.png" alt="Policies Manage Content"  title="Policies Manage Content"  />
+<p><img loading="lazy" src="/image8.png" alt="Policies Manage Content"  title="Policies Manage Content"  />
 </p>
 <h6 id="4222-deprecate-policies">4.2.2.2 Deprecate Policies<a hidden class="anchor" aria-hidden="true" href="#4222-deprecate-policies">#</a></h6>
 <p>There are 2 ways to deprecate a policy:</p>
@@ -316,7 +316,7 @@
 <p>We can set the configuration of the policy from the UI and set a user defined counter which can be any number of days (even less than 60 days if needed). This can be useful in case there is a vendor deprecation or functionality deprecation in play.</p>
 </li>
 </ol>
-<p><img loading="lazy" src="../../image4.png" alt="Deprecate Policies"  title="Deprecate Policies"  />
+<p><img loading="lazy" src="/image4.png" alt="Deprecate Policies"  title="Deprecate Policies"  />
 </p>
 <p>Two scenarios can arise here:</p>
 <ol>
