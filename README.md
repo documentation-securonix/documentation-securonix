@@ -15,7 +15,7 @@ For adding new content to the Documentation base, please follow the steps listed
 5. Push your changes to the Root_Folder branch
 <pre><code>git add .
 git commit -m "Add commit message"
-git add remote origin
+git remote add origin git@github.com:documentation-securonix/documentation-securonix.git
 git push -u origin Root_Folder
 </code></pre>
 6. After a few minutes, the information you added would be automatically reflected in the Documentation website
