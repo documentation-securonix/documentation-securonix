@@ -17,12 +17,28 @@ menu:
     #   name: example.org
     #   url: https://example.org
     #   weight: 30
-    
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    # hl_Lines: "2"    # Highlight line numbers
+    # hl_inline: false
+    # lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true  # Keep true to make copy-paste friendly code blocks
+    noClasses: true
+    noHl: false
+    # style: monokai
+    tabWidth: 4
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Documentation for SNYPR v6.4
   description: "Documentation for SNYPR v6.4"
-  keywords: [Documentation, SNYPR, Posts, Features]
+  keywords: [Documentation, SNYPR, Posts, Features, Securonix]
   author: "Punit Shah"
   images: ["https://www.securonix.com/wp-content/uploads/2021/07/securonix-blue.svg"]
   DateFormat: "January 2, 2006"
@@ -32,7 +48,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
@@ -45,6 +61,7 @@ params:
   tocopen: false
   hidefooter: false
   assets:
+    disableHLJS: true
     favicon: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
     favicon16x16: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
     favicon32x32: "https://www.securonix.com/wp-content/uploads/2021/12/cropped-cropped-cropped-cropped-Securonix-Logo_ForWeb-RGB_Icon-3-192x192.png"
@@ -62,15 +79,8 @@ params:
         buttons:
             - name: Posts
               url: "/documentation-securonix/posts"
-            - name: Website
-              url: "https://www.securonix.com/"
-            - name: "Linkedin"
-              url: "https://in.linkedin.com/company/securonix"
-            - name: "Instagram"
-              url: "https://www.instagram.com/securonix/"
-            - name: "Twitter"
-              url: "https://twitter.com/Securonix"
-            - name: "Facebook"
-              url: "https://www.facebook.com/Securonix/"
-            - name: "Youtube"
-              url: "https://www.youtube.com/channel/UCN3f7HTfuAlbbfy3RCQcd8w"
+
+  editPost:
+        URL: "https://github.com/documentation-securonix/documentation-securonix/tree/Root_Folder/content/"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link

@@ -6,18 +6,19 @@ draft: false
 tags: ["Posts"]
 author: "Punit Shah"
 cover:
-    image: "https://www.securonix.com/wp-content/uploads/2021/07/securonix-blue.svg" # image path/url
+    image: "../../sample_post.png" # image path/url
     alt: "Securonix Logo" # alt text
     caption: "Securonix Logo" # display caption under cover
-    relative: false # when using page bundles set this to true
+    relative: true # when using page bundles set this to true
     hidden: true # only hide on current single page
 ---
 
 ## Code Snippet
 
-```python
+```py3
 # Python Code
 print("This is a sample post to show code snippets and gif/videos")
+print("I added line numbers to the code snippet!")
 ```
 
 ## GIF
