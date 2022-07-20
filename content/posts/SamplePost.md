@@ -6,7 +6,7 @@ draft: false
 tags: ["Posts"]
 author: "Punit Shah"
 cover:
-    image: "../../sample_post.png" # image path/url
+    image: "/documentation-securonix/sample_post.png" # image path/url
     alt: "Securonix Logo" # alt text
     caption: "Securonix Logo" # display caption under cover
     relative: true # when using page bundles set this to true
