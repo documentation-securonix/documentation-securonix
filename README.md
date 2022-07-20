@@ -13,8 +13,8 @@ For adding new content to the Documentation base, please follow the steps listed
 3. Add necessary content in the markdown file
 4. Add images in the static folder
 5. Push your changes to the Root_Folder branch
-<pre><code> git add .
-git commit -m <Add commit message>
+<pre><code>git add .
+git commit -m "Add commit message"
 git push -u origin Root_Folder
 </code></pre>
 6. After a few minutes, the information you added would be automatically reflected in the Documentation website
