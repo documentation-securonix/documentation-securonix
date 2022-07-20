@@ -21,6 +21,12 @@ print("This is a sample post to show code snippets and gif/videos")
 print("I added line numbers to the code snippet!")
 ```
 
+```py3
+# Python Code
+print("This is a sample post for code snippet 2")
+print("I added line numbers to the code snippet!")
+```
+
 ## GIF
 
 ![Watermelon GIF](../../watermelon.gif "Watermelon GIF")
