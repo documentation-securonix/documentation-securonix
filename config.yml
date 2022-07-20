@@ -55,7 +55,7 @@ params:
         enabled: true
         title: "Securonix Documentation" # optional default will be site title
         subtitle: "Documentation Page for SNYPR"
-        imageUrl: "/documentation-securonix/securonix.svg" # optional
+        imageUrl: "/documentation-securonix/securonix_logo.jpg" # optional
         imageTitle: "Securonix Logo" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
